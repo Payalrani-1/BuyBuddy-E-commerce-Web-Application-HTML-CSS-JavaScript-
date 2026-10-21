@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BuyBuddy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/header.css">
+    <link rel="stylesheet" href="styles/pages/home.css">
+    <link rel="stylesheet" href="styles/shared/extras.css">
+  </head>
+  <body data-page="home">
+    <div class="site-header">
+      <div class="site-header-left-section">
+        <a href="index.html" class="header-link">
+          <img class="site-logo" src="images/logo-white.svg" alt="BuyBuddy">
+          <img class="site-mobile-logo" src="images/mobile-logo-white.svg" alt="BuyBuddy">
+        </a>
+      </div>
+      <div class="site-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search products">
+        <button class="search-button"><img class="search-icon" src="images/icons/search-icon.png" alt="Search"></button>
+      </div>
+      <div class="site-header-right-section">
+        <a class="orders-link header-link" href="orders.html"><span class="orders-text">Orders</span></a>
+        <a class="cart-link header-link" href="cart.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png" alt="">
+          <div class="cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="products-grid"></div>
+    </div>
+    <script src="data/products.js"></script>
+    <script src="scripts/store.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

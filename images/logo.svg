@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 22 340 60" role="img" aria-label="BuyBuddy">
+  <g transform="translate(6 14)">
+    <path d="M6 22h46l-4 38a8 8 0 0 1-8 7H18a8 8 0 0 1-8-7z" fill="#ff6b57"/>
+    <path d="M20 30v-8a12 12 0 0 1 24 0v8" fill="none" stroke="#2b2370" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="76" y="64" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1" fill="#2b2370">buybuddy</text>
+</svg>

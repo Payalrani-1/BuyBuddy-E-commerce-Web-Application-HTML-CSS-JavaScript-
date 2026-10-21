@@ -1,0 +1,27 @@
+/* Styles for the pieces added by JavaScript (search note, empty states, confirmation). */
+.search-note { margin: 0 0 20px; font-size: 18px; }
+.search-note a { color: rgb(94, 75, 200); }
+
+.empty-message { font-size: 18px; padding: 30px 0; }
+.empty-message p { margin-bottom: 16px; }
+.view-products-link {
+  display: inline-block; padding: 10px 20px; border-radius: 8px;
+  text-decoration: none; color: inherit;
+}
+
+.order-confirmation {
+  border: 1px solid rgb(6, 125, 98); background: rgb(232, 247, 242);
+  border-radius: 8px; padding: 16px 20px; margin-bottom: 30px; word-break: break-all;
+}
+.order-confirmation-title {
+  color: rgb(6, 125, 98); font-weight: 700; font-size: 20px; margin-bottom: 6px;
+}
+
+.place-order-button:disabled { opacity: .5; cursor: not-allowed; }
+.quantity-input { margin-right: 4px; }
+
+/* quantity editing on the cart page */
+.quantity-input { display: none; width: 55px; }
+.is-editing .quantity-input { display: inline-block; }
+.is-editing .quantity-label { display: none; }
+.link-button { display: inline-block; padding: 10px 20px; border-radius: 8px; text-decoration: none; color: inherit; }
